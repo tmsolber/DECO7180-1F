@@ -9,9 +9,16 @@
   <body>
     <div id="loading"></div>
     <img id="animalImage" src="../images/shark.jpg"/>
-    <div id="popUp">
-      <h3></h3>
-
+    <div id="popUp" style="display:none;flex-direction:column">
+      <div style="display:flex;flex-direction:row">
+        <h4>English:</h4>
+        <h4 id="englishWord"></h4>
+      </div>
+      <div style="display:flex;flex-direction:row">
+        <h4>Yugara:</h4>
+        <h4 id="yugaraWord"></h4>
+      </div>
+      <button id="gotcha">Gotcha!</button>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 		<script src="../js/script.js"></script>
